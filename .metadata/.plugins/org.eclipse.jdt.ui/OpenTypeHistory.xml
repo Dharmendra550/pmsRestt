@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=dataJpa-pagination/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/springframework\/data\/spring-data-commons\/2.2.6.RELEASE\/spring-data-commons-2.2.6.RELEASE.jar&lt;org.springframework.data.repository(PagingAndSortingRepository.class[PagingAndSortingRepository" modifiers="1537" timestamp="1585305213031"/>
+    <typeInfo handle="=dataJpa-pagination/src\/main\/java&lt;com.pack.service{IEmpService.java[IEmpService" modifiers="513" timestamp="1585648574154"/>
+    <typeInfo handle="=dataJpa-pagination/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/aspectj\/aspectjweaver\/1.9.5\/aspectjweaver-1.9.5.jar&lt;org.aspectj.asm(IElementHandleProvider.class[IElementHandleProvider" modifiers="1537" timestamp="1580123887392"/>
+    <typeInfo handle="=CustomerRegistrationAplication/src\/main\/java&lt;com.pack.dao{CustomerDao.java[CustomerDao" modifiers="513" timestamp="1586089809423"/>
+    <typeInfo handle="=SpringData-MongoDB/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/springframework\/data\/spring-data-mongodb\/2.2.6.RELEASE\/spring-data-mongodb-2.2.6.RELEASE.jar&lt;org.springframework.data.mongodb.repository(MongoRepository.class[MongoRepository" modifiers="1537" timestamp="1586246681166"/>
+    <typeInfo handle="=dataJpa-1/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/springframework\/boot\/spring-boot\/2.2.6.RELEASE\/spring-boot-2.2.6.RELEASE.jar&lt;org.springframework.boot(CommandLineRunner.class[CommandLineRunner" modifiers="1537" timestamp="1585305264551"/>
+    <typeInfo handle="=dataJpa-1/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.6.RELEASE\/spring-data-jpa-2.2.6.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1585305184178"/>
+    <typeInfo handle="=CallDetails-Micro/src\/main\/java&lt;com.calldetails.service{ICallDetailsService.java[ICallDetailsService" modifiers="513" timestamp="1590389169127"/>
+    <typeInfo handle="=Friend-Micro/src\/main\/java&lt;com.friend.service{IFriendService.java[IFriendService" modifiers="513" timestamp="1590478736244"/>
+    <typeInfo handle="=Plan-Micro/src\/main\/java&lt;com.plan.service{IPlanService.java[IPlanService" modifiers="513" timestamp="1590924969429"/>
+    <typeInfo handle="=CallDetails-Micro/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.2.7.RELEASE\/spring-data-jpa-2.2.7.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1588930372794"/>
+    <typeInfo handle="=Customer-Micro/src\/main\/java&lt;com.customer.service{ICustomerService.java[ICustomerService" modifiers="513" timestamp="1590714911591"/>
+    <typeInfo handle="=Customer-Micro/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/com\/zaxxer\/HikariCP\/3.4.3\/HikariCP-3.4.3.jar&lt;com.zaxxer.hikari.util(ConcurrentBag$IConcurrentBagEntry.class[IConcurrentBagEntry" modifiers="1545" timestamp="1588930302498"/>
+    <typeInfo handle="=HotelManagementSystem/C:\/Users\/Dharmendra Kumar Das\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.3.1.RELEASE\/spring-data-jpa-2.3.1.RELEASE.jar&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1593080529813"/>
+</typeInfoHistroy>

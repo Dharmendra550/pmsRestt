@@ -1,0 +1,28 @@
+package com.rest.controller;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.rest.entity.Trade;
+import com.rest.repository.TradeRepository;
+
+@RestController
+public class TradeRestController 
+{
+@Autowired
+TradeRepository repo;
+
+@GetMapping("/trades")
+public ResponseEntity<List<Trade>> getAllTrades()
+{
+	List<Trade>tradeList=repo.findAll();
+	
+	return new ResponseEntity<List<Trade>>(tradeList,HttpStatus.OK);
+}
+
+}

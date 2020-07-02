@@ -1,0 +1,22 @@
+package com.rest.entity;
+
+import java.util.Date;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+public class Trade 
+{
+	@Id
+private Integer tradeid;
+private String tradetype;
+private String symbol;
+private Integer shares;
+private Double price;
+@Temporal(TemporalType.TIMESTAMP)
+private Date  timestamp;
+
+}

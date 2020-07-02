@@ -1,0 +1,32 @@
+package com.hotel.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import com.hotel.model.HotelModel;
+import com.hotel.repository.HotelRepository;
+
+@Controller
+public class HotelController 
+{
+@Autowired
+HotelRepository repo;
+
+
+@GetMapping("/home")
+public String getHomepage()
+{
+	return "home";
+}
+
+@GetMapping("/see your plan")
+public String getPlan(Model model)
+{
+	HotelModel hm=new HotelModel();
+	model.addAttribute("ehModel",hm);
+	return "see your plan";
+}
+
+}

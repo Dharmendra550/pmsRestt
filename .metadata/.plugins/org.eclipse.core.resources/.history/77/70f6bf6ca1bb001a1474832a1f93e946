@@ -1,0 +1,42 @@
+package com.rest.controller;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.rest.entity.Users;
+import com.rest.model.UsersModel;
+import com.rest.repository.UsersRepository;
+
+@RestController
+public class UsersRestController 
+{
+
+@Autowired
+UsersRepository repo;
+
+@GetMapping("/trades")
+public   ResponseEntity<List<UsersModel>>   getTrades()
+{
+	List<Users>   usersList = repo.findAll();
+	
+	List<UsersModel>  usersModelList = new  ArrayList<>();
+	
+	usersList.forEach( users -> {
+		UsersModel   uModel =new  UsersModel();
+		BeanUtils.copyProperties(users, uModel);
+		usersModelList.add(uModel);
+	});
+	
+	return  new  ResponseEntity<List<UsersModel>>(usersModelList, HttpStatus.OK);
+}
+}
+	
+

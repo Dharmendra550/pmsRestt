@@ -1,0 +1,3 @@
+server.port=2424
+server.servlet.context-path=/P
+
